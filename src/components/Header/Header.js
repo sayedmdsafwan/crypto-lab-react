@@ -5,7 +5,7 @@ import CustomLink from "../CustomLink/CustomLink";
 const Header = () => {
     return (
         <div>
-            <div className="sticky top-0 bg-white px-12 py-8 flex justify-center md:justify-between">
+            <div className="sticky top-0 bg-white px-44 py-8 flex justify-center md:justify-between">
                 <div className="hidden md:block">
                     <Link
                         className="font-sans font-bold text-xl text-violet-600"
