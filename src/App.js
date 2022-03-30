@@ -5,6 +5,7 @@ import Contact from "./components/Contact/Contact";
 import Homepage from "./components/Homepage/Homepage";
 import Coins from "./components/Coins/Coins";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
             </Routes>
+            <Footer />
         </div>
     );
 };
