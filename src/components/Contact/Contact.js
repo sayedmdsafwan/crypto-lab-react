@@ -12,18 +12,18 @@ const Contact = () => {
                 <div className="flex justify-center items-center">
                     <Link
                         to="bd-address"
-                        className="  py-1 px-3 text-white mt-3 mx-1 bg-violet-600 w-auto sm:mb-0"
+                        className="  py-1 px-3 rounded text-white mt-3 mx-1 bg-violet-600 w-auto sm:mb-0"
                     >
                         BD Address
                     </Link>
                     <Link
                         to="us-address"
-                        className="  py-1 px-3 text-white mt-3 mx-1 bg-violet-600 w-auto sm:mb-0"
+                        className="  py-1 px-3 rounded text-white mt-3 mx-1 bg-violet-600 w-auto sm:mb-0"
                     >
                         US Address
                     </Link>
                 </div>
-                <div className="flex justify-center items-center w-full py-44">
+                <div className="flex justify-center items-center w-4/5 py-20">
                     <Outlet />
                 </div>
             </div>
